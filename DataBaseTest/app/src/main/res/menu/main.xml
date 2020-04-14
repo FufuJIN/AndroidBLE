@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group >
+        <item
+            android:id="@+id/menu_refresh"
+            android:checkable="false"
+            android:orderInCategory="2"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/menu_scan"
+            android:orderInCategory="3"
+            android:title="@string/menu_scan"
+            app:showAsAction="ifRoom|withText" />
+        <item
+            android:id="@+id/menu_stop"
+            android:orderInCategory="4"
+            android:title="@string/menu_stop"
+            app:showAsAction="ifRoom|withText" />
+        <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="200"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+        <item
+            android:id="@+id/action_connect"
+            android:orderInCategory="200"
+            android:title="@string/netty_conn"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_sendMessage"
+            android:orderInCategory="200"
+            android:title="sendMessage"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_close"
+            android:orderInCategory="200"
+            android:title="@string/closeClient"
+            app:showAsAction="never" />
+    </group>
+</menu>

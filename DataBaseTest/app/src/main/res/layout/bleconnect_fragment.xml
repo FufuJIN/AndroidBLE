@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bleconnect"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.bleconnect.BleconnectFragment">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="401dp"
+        android:layout_height="409dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/Chart"
+            android:layout_width="381dp"
+            android:layout_height="371dp">
+
+        </com.github.mikephil.charting.charts.LineChart>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:layout_editor_absoluteX="9dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/SPO2"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txt_spo2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/PR"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txt_pr"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="RecieveData" />
+
+        <TextView
+            android:id="@+id/receive_data"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

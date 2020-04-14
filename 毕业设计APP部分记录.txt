@@ -1,0 +1,6 @@
+1、当前APP项目名称DataBaseTest
+   画图部分使用Echart
+   待完善部分是App与网页的交互以及体重健康等部分。
+
+
+

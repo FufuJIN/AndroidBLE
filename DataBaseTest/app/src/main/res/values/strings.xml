@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">本科毕业设计</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">靳虎</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="tv_back">返回</string>
+    <string name="menu_scan">scan</string>
+    <string name="menu_stop">stop</string>
+    <string name="ble_status">free</string>
+    <string name="nav_header_subtitle">欢迎使用</string>
+    <string name="unknown_device">unknown_device</string>
+    <string name="SPO2">SPO2:</string>
+    <string name="PR">PR</string>
+    <string name="connected" translatable="false" >connected</string>
+    <string name="disconnected" translatable="false" >disconnected</string>
+    <string name="no_data" translatable="false" >data</string>
+    <string name="netty_conn">Connect</string>
+    <string name="closeClient">Close</string>
+</resources>
